@@ -1,1 +1,0 @@
-# Mobile_Shop_web

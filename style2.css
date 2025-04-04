@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-form {
+    background: linear-gradient(120deg, rgb(89, 0, 255), rgb(255, 0, 187));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: 85%;
+    gap: 20px;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center; 
+}
+.age{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(216, 53, 86);
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid rgb(216, 53, 86);
+}
+
+input[type="submit"] {
+    background-color: rgb(216, 53, 86);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(216, 53, 86);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
